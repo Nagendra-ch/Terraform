@@ -1,6 +1,3 @@
-provider "aws" {
- region = "us-west-2"
-}
 resource "aws_instance"
 "example" {
  ami = "ami-0ad99772"
